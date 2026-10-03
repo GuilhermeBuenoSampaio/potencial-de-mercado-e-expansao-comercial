@@ -1,0 +1,117 @@
+{
+  "projeto": "potencial-de-mercado-e-expansao-comercial",
+  "veiculo": {
+    "modelo": "Fiat Fiorino",
+    "condicao": "NOVA",
+    "combustivel": "GASOLINA",
+    "refrigeracao": false,
+    "operacao": "SAIDA_COM_CARGA_MAXIMA",
+    "capacidade_produtos_kg": null,
+    "fonte_capacidade": null,
+    "ano_modelo_confirmado": null
+  },
+  "consumos": [
+    {
+      "cenario": "SENSIBILIDADE_8_KM_L",
+      "km_l": 8,
+      "natureza": "HIPOTESE_NAO_CALIBRADA"
+    },
+    {
+      "cenario": "SENSIBILIDADE_10_KM_L",
+      "km_l": 10,
+      "natureza": "HIPOTESE_NAO_CALIBRADA"
+    },
+    {
+      "cenario": "SENSIBILIDADE_12_KM_L",
+      "km_l": 12,
+      "natureza": "HIPOTESE_NAO_CALIBRADA"
+    }
+  ],
+  "circuitos": {
+    "TODAS_PROXIMAS_PRIMEIRO": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": "GASOLINA",
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": [],
+      "receita_media_brl_kg": null,
+      "fonte_receita_por_kg": null,
+      "natureza_receita_por_kg": null
+    },
+    "TODAS_DISTANTES_PRIMEIRO": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": "GASOLINA",
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": [],
+      "receita_media_brl_kg": null,
+      "fonte_receita_por_kg": null,
+      "natureza_receita_por_kg": null
+    },
+    "TODAS_MENOR_CICLO": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": "GASOLINA",
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": [],
+      "receita_media_brl_kg": null,
+      "fonte_receita_por_kg": null,
+      "natureza_receita_por_kg": null
+    },
+    "ANCORA_3516200": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": "GASOLINA",
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": [],
+      "receita_media_brl_kg": null,
+      "fonte_receita_por_kg": null,
+      "natureza_receita_por_kg": null
+    },
+    "ANCORA_3505500": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": "GASOLINA",
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": [],
+      "receita_media_brl_kg": null,
+      "fonte_receita_por_kg": null,
+      "natureza_receita_por_kg": null
+    }
+  }
+}

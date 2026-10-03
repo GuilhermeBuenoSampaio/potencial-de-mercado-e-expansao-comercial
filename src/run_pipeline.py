@@ -22,7 +22,21 @@ from etapa_14_eda_temporal import executar as explorar_temporal
 from etapa_15_eda_geografica import executar as explorar_geografica
 from etapa_16_eda_multivariada import executar as explorar_multivariada
 from etapa_17_eda_documental import executar as explorar_documental
+from etapa_19_gold_dimensional import executar as gerar_gold_dimensional
+from etapa_20_carga_sql import executar as carregar_sql
+from etapa_22_prioridades_circuitos import executar as analisar_prioridades
+from etapa_21_views_comerciais import executar as instalar_views
+from etapa_23_custos_carga_maxima import executar as analisar_custos_carga
+from etapa_24_coleta_logistica import executar as coletar_logistica
+from etapa_25_divisao_circuitos import executar as dividir_circuitos
+from etapa_26_jornada_atendimento import executar as simular_jornada
 
+
+from etapa_27_equilibrio_viagens import executar as analisar_equilibrio
+
+from etapa_28_pedagios_trajetos import executar as coletar_pedagios
+
+from etapa_29_priorizacao_comercial import executar as priorizar_comercial
 
 def main():
     parser = argparse.ArgumentParser()
@@ -39,9 +53,68 @@ def main():
     parser.add_argument('--eda-geografica', action='store_true', help='Explora localizacao e distancias entre centroides apos a temporal')
     parser.add_argument('--eda-multivariada', action='store_true', help='Combina perfis municipais e associacoes com controle apos a geografica')
     parser.add_argument('--eda-documental', action='store_true', help='Explora precos, estudos historicos e evidencia JPEG da Silver vinculada a base')
+    parser.add_argument('--gerar-gold-dimensional', action='store_true', help='Materializa Gold dimensional das Silver vinculadas a base EDA')
+    parser.add_argument('--carregar-sql', action='store_true', help='Carrega Gold dimensional com reconciliacao integral SQL')
+    parser.add_argument('--views-comerciais', action='store_true', help='Instala e valida as views SQL da etapa 21')
+    parser.add_argument('--prioridades-circuitos', action='store_true', help='Analisa a carga SQL aprovada e gera circuitos geodesicos')
+    parser.add_argument('--jornada-atendimento', action='store_true', help='Modo isolado: simula jornada total e atendimento')
+    parser.add_argument('--parametros-jornada', type=Path)
+    parser.add_argument('--dividir-circuitos', action='store_true', help='Modo isolado: divide circuitos por limites hipoteticos de deslocamento')
+    parser.add_argument('--limites-deslocamento-h', nargs='+', type=float, default=[4,6,8])
+    parser.add_argument('--coletar-logistica', action='store_true', help='Modo isolado: coleta ANP e OSRM sobre a etapa 22 existente')
+    parser.add_argument('--custos-carga-maxima', action='store_true', help='Executa somente a etapa 23 sobre circuitos existentes')
+    parser.add_argument('--parametros-carga-maxima', type=Path)
+    parser.add_argument('--parametros-custo', type=Path, help='JSON opcional com parametros rodoviarios e margens por circuito')
+    parser.add_argument('--sql-servidor', help='Nome da instancia SQL usada no SSMS')
+    parser.add_argument('--sql-driver', default='ODBC Driver 18 for SQL Server')
+    parser.add_argument('--confiar-certificado', action='store_true', help='Aceita certificado local da instancia SQL')
+    parser.add_argument('--equilibrio-viagens', action='store_true', help='Modo isolado: sensibilidade de custos e equilibrio')
+    parser.add_argument('--parametros-equilibrio', type=Path)
+    parser.add_argument('--pedagios-trajetos', action='store_true', help='Modo isolado: coleta geometrias e estima pedagios OSM')
+    parser.add_argument("--priorizacao-comercial", action="store_true", help="Modo isolado: cruza SQL com os cinco circuitos da etapa 28")
     args = parser.parse_args()
+    if args.priorizacao_comercial:
+        modos = [k for k,v in vars(args).items() if isinstance(v,bool) and v and k not in ("priorizacao_comercial","confiar_certificado")]
+        if modos or not args.sql_servidor: parser.error("--priorizacao-comercial exige --sql-servidor e execucao isolada")
+        run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "_" + uuid4().hex[:8]
+        print(json.dumps(priorizar_comercial(args.raiz.resolve(), run_id, args.sql_servidor, args.sql_driver, args.confiar_certificado), ensure_ascii=False, indent=2))
+        return
+    if args.pedagios_trajetos:
+        modos = [k for k,v in vars(args).items() if isinstance(v,bool) and v and k not in ('pedagios_trajetos','confiar_certificado')]
+        if modos: parser.error('--pedagios-trajetos deve ser executado isoladamente')
+        run_id = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ') + '_' + uuid4().hex[:8]
+        print(json.dumps(coletar_pedagios(args.raiz.resolve(), run_id), ensure_ascii=False, indent=2))
+        return
+    if args.equilibrio_viagens:
+        modos = [k for k,v in vars(args).items() if isinstance(v,bool) and v and k not in ('equilibrio_viagens','confiar_certificado')]
+        if modos: parser.error('--equilibrio-viagens deve ser executado isoladamente')
+        run_id = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ') + '_' + uuid4().hex[:8]
+        print(json.dumps(analisar_equilibrio(args.raiz.resolve(), run_id, args.parametros_equilibrio), ensure_ascii=False, indent=2))
+        return
+    if (args.carregar_sql or args.views_comerciais or args.prioridades_circuitos) and not args.sql_servidor:
+        parser.error('--carregar-sql, --views-comerciais e --prioridades-circuitos exigem --sql-servidor')
     raiz = args.raiz.resolve()
     run_id = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ') + '_' + uuid4().hex[:8]
+    if args.jornada_atendimento:
+        if any((args.dividir_circuitos, args.coletar_logistica, args.custos_carga_maxima, args.coletar_externos, args.validar_municipais, args.gerar_silver_municipal, args.gerar_silver_documental, args.preparar_eda, args.eda_estrutura, args.eda_univariada, args.eda_bivariada, args.eda_temporal, args.eda_geografica, args.eda_multivariada, args.eda_documental, args.gerar_gold_dimensional, args.carregar_sql, args.views_comerciais, args.prioridades_circuitos)):
+            parser.error('--jornada-atendimento deve ser executado isoladamente')
+        print(json.dumps(simular_jornada(raiz, run_id, parametros=args.parametros_jornada), ensure_ascii=False, indent=2))
+        return
+    if args.dividir_circuitos:
+        if any((args.coletar_logistica, args.custos_carga_maxima, args.coletar_externos, args.validar_municipais, args.gerar_silver_municipal, args.gerar_silver_documental, args.preparar_eda, args.eda_estrutura, args.eda_univariada, args.eda_bivariada, args.eda_temporal, args.eda_geografica, args.eda_multivariada, args.eda_documental, args.gerar_gold_dimensional, args.carregar_sql, args.views_comerciais, args.prioridades_circuitos)):
+            parser.error('--dividir-circuitos deve ser executado isoladamente')
+        print(json.dumps(dividir_circuitos(raiz, run_id, limites=args.limites_deslocamento_h), ensure_ascii=False, indent=2))
+        return
+    if args.coletar_logistica:
+        if any((args.custos_carga_maxima, args.coletar_externos, args.validar_municipais, args.gerar_silver_municipal, args.gerar_silver_documental, args.preparar_eda, args.eda_estrutura, args.eda_univariada, args.eda_bivariada, args.eda_temporal, args.eda_geografica, args.eda_multivariada, args.eda_documental, args.gerar_gold_dimensional, args.carregar_sql, args.views_comerciais, args.prioridades_circuitos)):
+            parser.error('--coletar-logistica deve ser executado isoladamente')
+        print(json.dumps(coletar_logistica(raiz, run_id, parametros=args.parametros_carga_maxima), ensure_ascii=False, indent=2))
+        return
+    if args.custos_carga_maxima:
+        if any((args.coletar_externos, args.validar_municipais, args.gerar_silver_municipal, args.gerar_silver_documental, args.preparar_eda, args.eda_estrutura, args.eda_univariada, args.eda_bivariada, args.eda_temporal, args.eda_geografica, args.eda_multivariada, args.eda_documental, args.gerar_gold_dimensional, args.carregar_sql, args.views_comerciais, args.prioridades_circuitos)):
+            parser.error('--custos-carga-maxima e um modo isolado; execute as etapas anteriores separadamente')
+        print(json.dumps(analisar_custos_carga(raiz, run_id, args.parametros_carga_maxima), ensure_ascii=False, indent=2))
+        return
     destino = raiz / 'quality' / '01_inventario' / run_id
     destino.mkdir(parents=True, exist_ok=False)
     logging.basicConfig(level=logging.INFO, handlers=[logging.FileHandler(destino / 'execucao.log', encoding='utf-8'), logging.StreamHandler()])
@@ -92,6 +165,19 @@ def main():
         if args.eda_documental:
             registro['eda_documental'] = explorar_documental(raiz, run_id)
             registro['etapas_disponiveis'].append('17_eda_documental')
+        if args.gerar_gold_dimensional:
+            registro['gold_dimensional'] = gerar_gold_dimensional(raiz, run_id)
+            registro['etapas_disponiveis'].append('19_gold_dimensional')
+        if args.carregar_sql:
+            pasta_gold = registro.get('gold_dimensional', {}).get('saida')
+            registro['carga_sql'] = carregar_sql(raiz, run_id, args.sql_servidor, pasta_gold, args.sql_driver, args.confiar_certificado)
+            registro['etapas_disponiveis'].append('20_carga_sql')
+        if args.views_comerciais or args.prioridades_circuitos:
+            registro['views_comerciais'] = instalar_views(raiz, run_id, args.sql_servidor, args.sql_driver, args.confiar_certificado)
+            registro['etapas_disponiveis'].append('21_views_comerciais')
+        if args.prioridades_circuitos:
+            registro['prioridades_circuitos'] = analisar_prioridades(raiz, run_id, args.sql_servidor, args.sql_driver, args.confiar_certificado, args.parametros_custo)
+            registro['etapas_disponiveis'].append('22_prioridades_circuitos')
         registro['status'] = 'CONCLUIDO_COM_CONFERENCIA_PENDENTE'
         if registro.get('coleta_municipal', {}).get('status') == 'COLETA_PARCIAL_COM_PENDENCIAS':
             registro['status'] = 'CONCLUIDO_COM_COLETA_PARCIAL'

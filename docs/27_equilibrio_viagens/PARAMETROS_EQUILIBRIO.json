@@ -1,0 +1,8 @@
+{
+  "projeto": "potencial-de-mercado-e-expansao-comercial",
+  "natureza": "HIPOTESES_PARA_SENSIBILIDADE_NAO_MEDIDAS",
+  "consumos_km_l": [8, 10, 12],
+  "desgastes_brl_km": [0.1, 0.2, 0.3],
+  "margens_contribuicao": [0.15, 0.25, 0.35],
+  "pedagios_por_circuito": {}
+}

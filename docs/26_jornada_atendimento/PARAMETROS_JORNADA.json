@@ -1,0 +1,30 @@
+{
+  "projeto": "potencial-de-mercado-e-expansao-comercial",
+  "natureza": "HIPOTESES_NAO_CALIBRADAS",
+  "cenarios": [
+    {
+      "cenario": "J8H_1ATENDIMENTOS_CIDADE_20MIN",
+      "jornada_h": 8,
+      "pausas_h": 1,
+      "reserva_h": 1,
+      "atendimentos_por_cidade": 1,
+      "minutos_por_atendimento": 20
+    },
+    {
+      "cenario": "J8H_3ATENDIMENTOS_CIDADE_20MIN",
+      "jornada_h": 8,
+      "pausas_h": 1,
+      "reserva_h": 1,
+      "atendimentos_por_cidade": 3,
+      "minutos_por_atendimento": 20
+    },
+    {
+      "cenario": "J8H_5ATENDIMENTOS_CIDADE_20MIN",
+      "jornada_h": 8,
+      "pausas_h": 1,
+      "reserva_h": 1,
+      "atendimentos_por_cidade": 5,
+      "minutos_por_atendimento": 20
+    }
+  ]
+}

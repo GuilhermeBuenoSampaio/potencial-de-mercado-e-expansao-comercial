@@ -1,0 +1,48 @@
+{
+  "fontes": [
+    {
+      "url_solicitada": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas",
+      "url_final": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas",
+      "arquivo": "anp_pagina.html",
+      "sha256": "84f1b5f709ac7d5c83d0e5665610c2e89a8ecf6070cbd07603369226b150b65c",
+      "bytes": 443890,
+      "consulta_utc": "2026-10-03T21:06:02.437594+00:00"
+    },
+    {
+      "url_solicitada": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arquivos-lpc/2026/resumo_semanal_lpc_2026-09-27_2026-10-03.xlsx",
+      "url_final": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arquivos-lpc/2026/resumo_semanal_lpc_2026-09-27_2026-10-03.xlsx",
+      "arquivo": "anp_semana.xlsx",
+      "sha256": "d27039aad136b87445352936d3f072044bcd158951f229d3f796f5964a3cf134",
+      "bytes": 298097,
+      "consulta_utc": "2026-10-03T21:06:10.570624+00:00"
+    },
+    {
+      "url_solicitada": "https://router.project-osrm.org/table/v1/driving/-47.3811,-20.5552;-47.4009,-20.3713;-49.0005,-20.0357;-48.1533,-20.6887;-47.8546,-20.8315;-47.9058,-20.6979;-47.7291,-20.7049;-48.0665,-20.4175;-48.3641,-20.314;-48.6519,-20.5142;-48.6463,-20.0813;-48.7217,-20.2669;-47.8213,-21.2108?annotations=distance,duration",
+      "url_final": "https://router.project-osrm.org/table/v1/driving/-47.3811,-20.5552;-47.4009,-20.3713;-49.0005,-20.0357;-48.1533,-20.6887;-47.8546,-20.8315;-47.9058,-20.6979;-47.7291,-20.7049;-48.0665,-20.4175;-48.3641,-20.314;-48.6519,-20.5142;-48.6463,-20.0813;-48.7217,-20.2669;-47.8213,-21.2108?annotations=distance,duration",
+      "arquivo": "osrm_matriz.json",
+      "sha256": "f176208f05eecbc576c333124161aec0518900dfb4fa6006c8c912df3c865db9",
+      "bytes": 8080,
+      "consulta_utc": "2026-10-03T21:06:17.688884+00:00"
+    }
+  ],
+  "erros": [],
+  "combustivel": [
+    {
+      "municipio": "Ribeirão Preto",
+      "uf": "SP",
+      "produto": "GASOLINA COMUM",
+      "inicio": "2026-09-27",
+      "fim": "2026-10-03",
+      "preco_medio_brl_l": 6.7,
+      "preco_minimo_brl_l": 6.42,
+      "preco_maximo_brl_l": 7.19,
+      "postos_pesquisados": 24,
+      "aba": "MUNICIPIOS",
+      "linha_excel": 1101,
+      "status": "FONTE_PRIMARIA_SEMANAL",
+      "fonte_url": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arquivos-lpc/2026/resumo_semanal_lpc_2026-09-27_2026-10-03.xlsx",
+      "fonte_sha256": "d27039aad136b87445352936d3f072044bcd158951f229d3f796f5964a3cf134"
+    }
+  ],
+  "observacao": "Evidencia de coleta local de validacao; nao representa execucao no computador do usuario."
+}

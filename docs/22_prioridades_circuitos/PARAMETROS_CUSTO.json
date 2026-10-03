@@ -1,0 +1,80 @@
+{
+  "projeto": "potencial-de-mercado-e-expansao-comercial",
+  "circuitos": {
+    "TODAS_PROXIMAS_PRIMEIRO": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "consumo_km_l": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": null,
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": []
+    },
+    "TODAS_DISTANTES_PRIMEIRO": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "consumo_km_l": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": null,
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": []
+    },
+    "TODAS_MENOR_CICLO": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "consumo_km_l": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": null,
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": []
+    },
+    "ANCORA_3516200": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "consumo_km_l": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": null,
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": []
+    },
+    "ANCORA_3505500": {
+      "distancia_rodoviaria_total_km": null,
+      "fonte_distancia": null,
+      "consumo_km_l": null,
+      "preco_combustivel_brl_l": null,
+      "fonte_combustivel": null,
+      "periodo_combustivel": null,
+      "combustivel": null,
+      "desgaste_brl_km": null,
+      "origem_estimativa_desgaste": null,
+      "pedagios_total_brl": null,
+      "fonte_pedagios": null,
+      "categoria_veiculo_pedagio": null,
+      "margens_disponiveis": []
+    }
+  }
+}
