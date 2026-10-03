@@ -1,0 +1,267 @@
+[
+  {
+    "regra": "M01",
+    "status": "APROVADO",
+    "detalhe": "12 municipios alvo e nenhum territorio inesperado"
+  },
+  {
+    "regra": "M02",
+    "status": "APROVADO",
+    "detalhe": "Chave: municipio, tabela, variavel, classificacoes e ano"
+  },
+  {
+    "regra": "M03",
+    "status": "APROVADO",
+    "detalhe": "Valores numericos finitos e nao negativos nesta selecao de indicadores"
+  },
+  {
+    "regra": "M04",
+    "status": "APROVADO",
+    "detalhe": "Percentuais na escala 0 a 100"
+  },
+  {
+    "regra": "M05",
+    "status": "APROVADO",
+    "detalhe": "Conversao de mil reais para reais"
+  },
+  {
+    "regra": "M06",
+    "status": "APROVADO",
+    "detalhe": "Marcadores nao convertidos em zero"
+  },
+  {
+    "regra": "M07",
+    "status": "APROVADO",
+    "detalhe": "Ultimo valor numerico por municipio, indicador e categoria"
+  },
+  {
+    "regra": "M08",
+    "status": "APROVADO",
+    "detalhe": "Politica de atualidade recalculada na data desta validacao"
+  },
+  {
+    "regra": "M09",
+    "status": "APROVADO",
+    "detalhe": "Presenca de URL oficial, hash, metadados e data de coleta; nao equivale a verificar os arquivos brutos"
+  },
+  {
+    "regra": "R01_3127107",
+    "status": "APROVADO",
+    "detalhe": "Soma das 11 faixas exclusivas, incluindo sem rendimento; tolerancia de arredondamento 0,06 p.p."
+  },
+  {
+    "regra": "R01_3151602",
+    "status": "INCONCLUSIVO",
+    "detalhe": "Faixas com marcadores sem valor numerico. Preservar e verificar significado na fonte; nao imputar zero."
+  },
+  {
+    "regra": "R01_3505500",
+    "status": "APROVADO",
+    "detalhe": "Soma das 11 faixas exclusivas, incluindo sem rendimento; tolerancia de arredondamento 0,06 p.p."
+  },
+  {
+    "regra": "R01_3512100",
+    "status": "INCONCLUSIVO",
+    "detalhe": "Faixas com marcadores sem valor numerico. Preservar e verificar significado na fonte; nao imputar zero."
+  },
+  {
+    "regra": "R01_3513207",
+    "status": "APROVADO",
+    "detalhe": "Soma das 11 faixas exclusivas, incluindo sem rendimento; tolerancia de arredondamento 0,06 p.p."
+  },
+  {
+    "regra": "R01_3516200",
+    "status": "APROVADO",
+    "detalhe": "Soma das 11 faixas exclusivas, incluindo sem rendimento; tolerancia de arredondamento 0,06 p.p."
+  },
+  {
+    "regra": "R01_3517406",
+    "status": "APROVADO",
+    "detalhe": "Soma das 11 faixas exclusivas, incluindo sem rendimento; tolerancia de arredondamento 0,06 p.p."
+  },
+  {
+    "regra": "R01_3521309",
+    "status": "INCONCLUSIVO",
+    "detalhe": "Faixas com marcadores sem valor numerico. Preservar e verificar significado na fonte; nao imputar zero."
+  },
+  {
+    "regra": "R01_3531902",
+    "status": "INCONCLUSIVO",
+    "detalhe": "Faixas com marcadores sem valor numerico. Preservar e verificar significado na fonte; nao imputar zero."
+  },
+  {
+    "regra": "R01_3533601",
+    "status": "APROVADO",
+    "detalhe": "Soma das 11 faixas exclusivas, incluindo sem rendimento; tolerancia de arredondamento 0,06 p.p."
+  },
+  {
+    "regra": "R01_3534302",
+    "status": "APROVADO",
+    "detalhe": "Soma das 11 faixas exclusivas, incluindo sem rendimento; tolerancia de arredondamento 0,06 p.p."
+  },
+  {
+    "regra": "R01_3544905",
+    "status": "INCONCLUSIVO",
+    "detalhe": "Faixas com marcadores sem valor numerico. Preservar e verificar significado na fonte; nao imputar zero."
+  },
+  {
+    "regra": "I01_3516200",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3513207",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3127107",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3531902",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3544905",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3534302",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3533601",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3521309",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3517406",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3505500",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3151602",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I01_3512100",
+    "status": "APROVADO",
+    "detalhe": "Crescimento nominal acumulado e anualizado, par exato de cinco anos"
+  },
+  {
+    "regra": "I02",
+    "status": "APROVADO",
+    "detalhe": "Um indice de crescimento por municipio"
+  },
+  {
+    "regra": "G01",
+    "status": "APROVADO",
+    "detalhe": "12 destinos por 5 origens municipais"
+  },
+  {
+    "regra": "G02_3516200",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3513207",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3127107",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3531902",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3544905",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3534302",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3533601",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3521309",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3517406",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3505500",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3151602",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3512100",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3548906",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3543402",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3509502",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3552205",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G02_3550308",
+    "status": "APROVADO",
+    "detalhe": "Coordenadas validas de centroide municipal"
+  },
+  {
+    "regra": "G03",
+    "status": "APROVADO",
+    "detalhe": "Distancias geodesicas reconciliadas; nao valida percursos rodoviarios"
+  }
+]

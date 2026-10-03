@@ -1,0 +1,35 @@
+[
+  {
+    "arquivo": "base2019.zip",
+    "url": "https://ftp.ibge.gov.br/Pib_Municipios/2019/base/base_de_dados_2010_2019_txt.zip",
+    "sha256": "11e50dfb372acfa030ebfa78445a299a371838710925bcdd5bbf4ae931462da2",
+    "consulta_utc": "2026-10-01T01:07:53.332705+00:00",
+    "membro_txt": "PIB dos Municípios - base de dados 2010-2019.txt",
+    "encoding": "latin1",
+    "posicao_pib_1based": 934,
+    "posicao_pib_pc_1based": 953,
+    "largura": 18
+  },
+  {
+    "arquivo": "base2021.zip",
+    "url": "https://ftp.ibge.gov.br/Pib_Municipios/2021/base/base_de_dados_2010_2021_txt.zip",
+    "sha256": "d83d0d2c2600f61f70ce0ff6d0584f5c2986e1102c43efcf5fa22698281e9df6",
+    "consulta_utc": "2026-10-01T01:07:53.617042+00:00",
+    "membro_txt": "PIB dos Municípios - base de dados 2010-2021.txt",
+    "encoding": "latin1",
+    "posicao_pib_1based": 935,
+    "posicao_pib_pc_1based": 954,
+    "largura": 18
+  },
+  {
+    "arquivo": "base2023.zip",
+    "url": "https://ftp.ibge.gov.br/Pib_Municipios/2022_2023/base/base_de_dados_2010_2023_txt.zip",
+    "sha256": "1179047b0bcc527a776f5479a534a4b2d99d362491331b0f6b465871f9164090",
+    "consulta_utc": "2026-10-01T01:07:53.918157+00:00",
+    "membro_txt": "PIB dos Municípios - base de dados 2010-2023.txt",
+    "encoding": "latin1",
+    "posicao_pib_1based": 935,
+    "posicao_pib_pc_1based": 954,
+    "largura": 18
+  }
+]

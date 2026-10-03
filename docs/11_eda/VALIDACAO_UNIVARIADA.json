@@ -1,0 +1,17 @@
+{
+  "status": "APROVADA",
+  "formulas_quartis_variancia": "APROVADAS",
+  "casos_constante_unico_vazio": "APROVADOS",
+  "preservacao_valores_fontes_ausencias": "APROVADA",
+  "graficos_por_indicador": 56,
+  "regras_aprovadas": 130,
+  "resumo": {
+    "indicadores_classificacoes": 56,
+    "linhas_descritivas": 672,
+    "valores_numericos": 597,
+    "extremos_iqr": 70,
+    "indicadores_com_extremos": 41,
+    "indicadores_com_conferencia_renda_pendente": 24
+  },
+  "pipeline_eda_univariada": "APROVADA"
+}

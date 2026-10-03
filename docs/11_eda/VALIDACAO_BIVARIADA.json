@@ -1,0 +1,19 @@
+{
+  "status": "APROVADA",
+  "regras_aprovadas": 157,
+  "resumo": {
+    "cidades": 12,
+    "variaveis": 12,
+    "pares_explorados": 8,
+    "pares_mesmo_ano": 7,
+    "pares_anos_diferentes": 1,
+    "pontos_validos": 96,
+    "cenarios_sensibilidade": 104
+  },
+  "postos_com_empates": "APROVADOS",
+  "pearson_positivo_negativo_constante_n_insuficiente": "APROVADOS",
+  "denominador_alinhado_2024": "APROVADO",
+  "projeto_incorreto": "BLOQUEADO",
+  "graficos": 8,
+  "pipeline_eda_bivariada": "APROVADA"
+}

@@ -1,0 +1,40 @@
+{
+  "status": "SILVER_GERADA_COM_LIMITACOES",
+  "tabelas": [
+    {
+      "tabela": "municipios",
+      "linhas": 17,
+      "reconciliacao": "APROVADA"
+    },
+    {
+      "tabela": "dicionario_indicadores",
+      "linhas": 56,
+      "reconciliacao": "APROVADA"
+    },
+    {
+      "tabela": "indicadores_serie",
+      "linhas": 1524,
+      "reconciliacao": "APROVADA"
+    },
+    {
+      "tabela": "indicadores_ultimo_disponivel",
+      "linhas": 646,
+      "reconciliacao": "APROVADA"
+    },
+    {
+      "tabela": "distancias_geodesicas",
+      "linhas": 60,
+      "reconciliacao": "APROVADA"
+    },
+    {
+      "tabela": "crescimento_pib",
+      "linhas": 12,
+      "reconciliacao": "APROVADA"
+    }
+  ],
+  "marcadores_preservados": 143,
+  "ultimos_candidatos_eda": 597,
+  "teste_entrada_alterada": "PROMOCAO_BLOQUEADA",
+  "verificacao_dicionario": "TODOS_INDICADORES_REFERENCIADOS",
+  "consulta_externa_nesta_etapa": false
+}

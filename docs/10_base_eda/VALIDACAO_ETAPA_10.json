@@ -1,0 +1,17 @@
+{
+  "status": "APROVADA",
+  "base_real": true,
+  "contagens": {
+    "indicadores_ultimo_disponivel_eda": 646,
+    "painel_periodo_comum": 672,
+    "controle_periodos": 56,
+    "precos_referencia_eda": 67
+  },
+  "regras_aprovadas": 38,
+  "teste_hash_adulterado": "BLOQUEADO",
+  "teste_chave_geografica_inexistente": "BLOQUEADO",
+  "periodo_unico_por_indicador": true,
+  "selecionador_manifesto_qualidade": "APROVADO",
+  "valores_ausentes_painel": 75,
+  "pipeline_com_preparar_eda": "APROVADA"
+}

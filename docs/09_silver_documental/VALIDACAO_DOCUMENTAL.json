@@ -1,0 +1,22 @@
+{
+  "status": "SILVER_DOCUMENTAL_GERADA_COM_PENDENCIAS",
+  "tabelas": {
+    "precos_produtos": 67,
+    "consumo_historico": 312,
+    "testes_publicados": 47,
+    "coeficientes_publicados": 20,
+    "ajustes_publicados": 5,
+    "universitarios_historico": 310,
+    "evidencias_imagens": 312,
+    "fontes_documentais": 9,
+    "pendencias_documentais": 6
+  },
+  "fontes_fisicas_verificadas": 9,
+  "reconciliacoes": "JSON_PARQUET_APROVADAS",
+  "evidencias_duplicadas_na_analise": 0,
+  "divergencias_pdf_imagem": 2,
+  "inconsistencias_universitarios": 3,
+  "teste_fonte_com_hash_alterado": "PROMOCAO_BLOQUEADA",
+  "teste_inventario_json": "JSON_VALIDO_ACEITO_INVALIDO_REPROVADO",
+  "teste_pipeline_completa": "ETAPAS_01_A_05_E_09_CONCLUIDAS_COM_PENDENCIAS"
+}

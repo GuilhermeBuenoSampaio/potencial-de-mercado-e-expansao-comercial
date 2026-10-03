@@ -1,0 +1,795 @@
+{
+  "projeto": "potencial-de-mercado-e-expansao-comercial",
+  "run_id": "20261003T003210Z_e61ea566",
+  "inicio_utc": "2026-10-03T00:32:19.157280+00:00",
+  "status": "EDA_GEOGRAFICA_CONCLUIDA_COM_LIMITACOES",
+  "regras": [
+    {
+      "regra": "Projeto e status base",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Temporal concluida para mesma base",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hash manifesto Silver municipal",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "17 municipios distintos",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "12 destinos e 5 origens",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Coordenadas validas 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Matriz completa 12 por 5",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3516200 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3516200 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3516200 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3516200 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3516200 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3516200 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3516200 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3516200 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3516200 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3516200 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3513207 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3513207 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3513207 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3513207 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3513207 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3513207 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3513207 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3513207 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3513207 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3513207 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3127107 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3127107 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3127107 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3127107 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3127107 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3127107 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3127107 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3127107 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3127107 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3127107 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3531902 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3531902 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3531902 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3531902 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3531902 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3531902 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3531902 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3531902 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3531902 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3531902 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3544905 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3544905 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3544905 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3544905 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3544905 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3544905 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3544905 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3544905 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3544905 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3544905 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3534302 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3534302 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3534302 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3534302 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3534302 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3534302 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3534302 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3534302 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3534302 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3534302 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3533601 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3533601 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3533601 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3533601 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3533601 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3533601 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3533601 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3533601 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3533601 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3533601 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3521309 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3521309 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3521309 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3521309 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3521309 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3521309 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3521309 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3521309 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3521309 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3521309 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3517406 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3517406 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3517406 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3517406 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3517406 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3517406 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3517406 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3517406 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3517406 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3517406 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3505500 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3505500 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3505500 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3505500 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3505500 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3505500 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3505500 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3505500 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3505500 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3505500 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3151602 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3151602 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3151602 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3151602 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3151602 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3151602 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3151602 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3151602 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3151602 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3151602 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3512100 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3512100 3548906",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3512100 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3512100 3543402",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3512100 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3512100 3509502",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3512100 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3512100 3552205",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reconciliacao Haversine 3512100 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhagem coordenadas 3512100 3550308",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Indicador unico populacao_2026",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Indicador unico unidades_alimentacao_2024",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos populacao_2026 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Ano e municipio unicos unidades_alimentacao_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "66 pares de destinos unicos",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet pontos_geograficos",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet matriz_origem_destino",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet proximidade_por_cidade",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet pares_cidades_expansao",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet resumo_por_origem",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet pendencias_logisticas",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet mercado_proximidade",
+      "resultado": "APROVADA"
+    }
+  ],
+  "entrada": {
+    "base_run_id": "teste_valido",
+    "manifesto_base_sha256": "9aecfe2dddfaf9743adebf867fba652ad48992fda80bcadbe8a8dfa09c4a7322",
+    "silver_run_id": "20260930T212439Z_fb3ad8b9",
+    "conclusao_temporal_sha256": "3b3908a5ceab714f62b5fa53bf499ee139ac83c432eb96115fa1247f400924ab"
+  },
+  "saida": "/workspace/scratch/2366eb33135b/tmp/validacao_10_integrada/datalake/03_gold/20261003T003210Z_e61ea566/eda_geografica",
+  "exportacoes": [
+    {
+      "tabela": "pontos_geograficos",
+      "linhas": 17,
+      "sha256_json": "6f840e8a80364e349670a0e443e27d4175d9dce31bf4ccd9c18d186dcce70d4d",
+      "sha256_parquet": "0c267f71b97b42963937e38bd5cc66f71f873fc26ffec68dc51e0e626b7be9f6"
+    },
+    {
+      "tabela": "matriz_origem_destino",
+      "linhas": 60,
+      "sha256_json": "a7f0e1206efea39edbf72de58f53b5d82d74178da0692603d5d4a8662f81f699",
+      "sha256_parquet": "5f899773a9c547d7c1c2f5b0f48ea102d16be8bf60b013d9e578b95d13bcbe6c"
+    },
+    {
+      "tabela": "proximidade_por_cidade",
+      "linhas": 12,
+      "sha256_json": "07dca23fbc827e40534573f3e2edb12f765e3580a71778bbeefa92f7c66f490c",
+      "sha256_parquet": "0d1f68b86cf718eb334da4d0ed2f05595dcc16719f46877eb4b69724c52ea615"
+    },
+    {
+      "tabela": "pares_cidades_expansao",
+      "linhas": 66,
+      "sha256_json": "e99c27b85c85e4049cfb754bea4de3cf79933b8f273d5f556c0d9c6a76df10d2",
+      "sha256_parquet": "cc97a6e3760cd941673c4b1c091d10a4dd14dcfdf786e782623cb81c336d9af9"
+    },
+    {
+      "tabela": "resumo_por_origem",
+      "linhas": 5,
+      "sha256_json": "b01a21c708f665344715b1b72ba4ec32f86e3bc032080b0ab1c89e60c326d80d",
+      "sha256_parquet": "c8df006134742ac4389577f9b107cd755de55e444f004aefd0af44ac97006435"
+    },
+    {
+      "tabela": "pendencias_logisticas",
+      "linhas": 17,
+      "sha256_json": "1b91205112c7366809670aff9e4b842c399d3aa24fd63cc04aae596b04700736",
+      "sha256_parquet": "49cc25cf7a77eca66a343116e18096537130cec7983332102c9d8e574f1b9d95"
+    },
+    {
+      "tabela": "mercado_proximidade",
+      "linhas": 12,
+      "sha256_json": "fe752b16c7b0ba9cd0a86d570f25e1886fda459833a26364cf1c3116f3857afa",
+      "sha256_parquet": "9566e5634747fdb66f6546aab012e74cced1d72b156621e8eceecb63e6420a3f"
+    }
+  ],
+  "resumo": {
+    "municipios": 17,
+    "destinos": 12,
+    "origens": 5,
+    "comparacoes_origem_destino": 60,
+    "pares_destinos": 66,
+    "pendencias_enderecos": 17,
+    "rotas_rodoviarias_coletadas": 0,
+    "destinos_com_ribeirao_mais_proximo": 12
+  },
+  "pendencias_temporais_registradas": 3,
+  "metodos": {
+    "distancia": "Haversine; raio 6371.0088 km; reconciliacao Silver com tolerancia 0.000501 km",
+    "mapa": "Coordenadas locais x=longitude*cos(latitude media), y=latitude; escala igual nos eixos",
+    "proximidade": "Minimo entre cinco origens; empates pela precisao publicada registrados",
+    "pares": "12 escolhe 2 = 66; sem duplicar direcao"
+  },
+  "limites": [
+    "Coordenadas sao centroides municipais, nao sedes urbanas, instalacoes ou clientes.",
+    "Haversine usa esfera de raio medio: aproximacao geografica, nao geodesica elipsoidal precisa.",
+    "Quilometros nao representam percurso rodoviario, tempo, frete, pedágios ou cadeia fria.",
+    "Menor distancia geografica nao significa melhor CD; depende tambem de estoque, atendimento e operacao.",
+    "Mapa esquematico sem limites municipais, vias ou rotas; sem nova coleta ou basemap externo.",
+    "Pares entre cidades nao determinam roteiro de visitas ou entregas.",
+    "Pendencias do PIB permanecem no bloco temporal; nenhum PIB ou perfil setorial foi utilizado nesta etapa.",
+    "Comparacao com analise original somente no encerramento."
+  ],
+  "fim_utc": "2026-10-03T00:32:19.541864+00:00"
+}

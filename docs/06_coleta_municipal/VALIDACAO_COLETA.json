@@ -1,0 +1,26 @@
+{
+  "run_id": "20260930T205708Z_6458bbb9",
+  "status": "COLETA_CONCLUIDA_COM_CONFERENCIA_PENDENTE",
+  "municipios_alvo": 12,
+  "observacoes": 1524,
+  "fontes": 56,
+  "distancias_geodesicas": 60,
+  "comparacoes_original": 48,
+  "indices_crescimento_5_anos": 12,
+  "verificacoes": [
+    "municipios reconhecidos",
+    "sem chaves duplicadas",
+    "48 comparacoes com observacao atual",
+    "60 distancias entre centroides",
+    "12 indices com par exato de anos",
+    "fontes preservadas com hash",
+    "marcadores preservados sem zeros artificiais"
+  ],
+  "referencias": {
+    "6579:9324": 2026,
+    "5938:37": 2023,
+    "9509:707": 2024,
+    "10295:13431": 2022,
+    "pesquisa_38:47001": 2023
+  }
+}

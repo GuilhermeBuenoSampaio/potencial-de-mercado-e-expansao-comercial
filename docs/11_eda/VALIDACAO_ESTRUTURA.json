@@ -1,0 +1,21 @@
+{
+  "status": "APROVADA",
+  "regras_aprovadas": 77,
+  "resumo": {
+    "cidades": 12,
+    "indicadores_classificacoes": 56,
+    "linhas_painel": 672,
+    "com_valor_painel": 597,
+    "sem_valor_painel": 75,
+    "cobertura_numerica_percentual": 88.83928571428571,
+    "indicadores_cobertura_completa": 43,
+    "ultimos_disponiveis_em_ano_anterior_ao_painel": 49,
+    "marcadores_ausencias": {
+      "MARCADOR_PRESERVADO": 75
+    },
+    "pendencias_documentais": 6
+  },
+  "entrada_adulterada": "BLOQUEADA",
+  "reconciliacao_seis_exportacoes": "APROVADA",
+  "pipeline_eda_estrutura": "APROVADA"
+}

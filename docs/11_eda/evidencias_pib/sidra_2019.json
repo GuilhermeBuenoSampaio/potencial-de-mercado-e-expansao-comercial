@@ -1,0 +1,28 @@
+[
+  {
+    "NC": "Nível Territorial (Código)",
+    "NN": "Nível Territorial",
+    "MC": "Unidade de Medida (Código)",
+    "MN": "Unidade de Medida",
+    "V": "Valor",
+    "D1C": "Município (Código)",
+    "D1N": "Município",
+    "D2C": "Variável (Código)",
+    "D2N": "Variável",
+    "D3C": "Ano (Código)",
+    "D3N": "Ano"
+  },
+  {
+    "NC": "6",
+    "NN": "Município",
+    "MC": "40",
+    "MN": "Mil Reais",
+    "V": "364293",
+    "D1C": "3544905",
+    "D1N": "Sales Oliveira (SP)",
+    "D2C": "37",
+    "D2N": "Produto Interno Bruto a preços correntes",
+    "D3C": "2019",
+    "D3N": "2019"
+  }
+]

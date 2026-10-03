@@ -1,0 +1,21 @@
+{
+  "status": "APROVADA",
+  "regras_aprovadas": 100,
+  "resumo": {
+    "cidades": 12,
+    "indicadores_temporais": 6,
+    "observacoes_series": 288,
+    "variacoes_anuais": 204,
+    "resumos_cidade_bloco": 84,
+    "perfis_setoriais_historicos": 48,
+    "variacoes_com_valor_ausente": 0
+  },
+  "formulas_acumulado_anualizado_base_zero": "APROVADAS",
+  "populacao_blocos_separados": "APROVADA",
+  "variacoes_somente_anos_consecutivos": "APROVADAS",
+  "setores_historicos_sem_substituir_2023": "APROVADOS",
+  "reconciliacao_pib_silver": "APROVADA",
+  "projeto_incompativel": "BLOQUEADO",
+  "graficos_cidade_indicador": 72,
+  "pipeline_eda_temporal": "APROVADA"
+}

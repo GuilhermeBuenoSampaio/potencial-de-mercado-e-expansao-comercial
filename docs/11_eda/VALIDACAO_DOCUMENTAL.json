@@ -1,0 +1,21 @@
+{
+  "natureza": "VALIDACAO_LOCAL; NAO REPRESENTA EXECUCAO NO COMPUTADOR DO USUARIO",
+  "run_id": "20261003T015313Z_b99e3bad",
+  "status": "EDA_DOCUMENTAL_CONCLUIDA_COM_LIMITACOES",
+  "regras_aprovadas": 1340,
+  "resumo": {
+    "precos": 67,
+    "grupos_precos": 13,
+    "celulas_consumo": 312,
+    "recortes_consumo": 87,
+    "evidencias_jpeg": 312,
+    "divergencias_percentuais_jpeg": 2,
+    "pendencias": 6
+  },
+  "pipeline_run_id": "20261003T015328Z_4d1dc13d",
+  "verificacao_independente": [
+    "Medianas monetarias por grupo via statistics.median",
+    "Cobertura e unicidade dos 312 IDs de consumo",
+    "Pipeline concluiu etapa 17"
+  ]
+}

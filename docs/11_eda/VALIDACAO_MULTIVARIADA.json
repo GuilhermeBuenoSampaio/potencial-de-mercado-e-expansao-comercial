@@ -1,0 +1,1547 @@
+{
+  "projeto": "potencial-de-mercado-e-expansao-comercial",
+  "run_id": "20261003T005330Z_16cd6b92",
+  "inicio_utc": "2026-10-03T00:53:39.148899+00:00",
+  "status": "EDA_MULTIVARIADA_CONCLUIDA_COM_LIMITACOES",
+  "regras": [
+    {
+      "regra": "Projeto e status base",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Mesma Silver nas entradas",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Manifesto geo",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela geo pontos_geograficos",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes geo pontos_geograficos",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo geo pontos_geograficos",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela geo matriz_origem_destino",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes geo matriz_origem_destino",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo geo matriz_origem_destino",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela geo proximidade_por_cidade",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes geo proximidade_por_cidade",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo geo proximidade_por_cidade",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela geo pares_cidades_expansao",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes geo pares_cidades_expansao",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo geo pares_cidades_expansao",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela geo resumo_por_origem",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes geo resumo_por_origem",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo geo resumo_por_origem",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela geo pendencias_logisticas",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes geo pendencias_logisticas",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo geo pendencias_logisticas",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela geo mercado_proximidade",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes geo mercado_proximidade",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo geo mercado_proximidade",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Manifesto biv",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela biv catalogo_variaveis",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes biv catalogo_variaveis",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo biv catalogo_variaveis",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela biv indicadores_alinhados",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes biv indicadores_alinhados",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo biv indicadores_alinhados",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela biv correlacoes_exploratorias",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes biv correlacoes_exploratorias",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo biv correlacoes_exploratorias",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela biv pontos_relacoes",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes biv pontos_relacoes",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo biv pontos_relacoes",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nome de tabela biv sensibilidade_correlacoes",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Hashes biv sensibilidade_correlacoes",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Linhas e conteudo biv sensibilidade_correlacoes",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "12 cidades geograficas unicas",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Chaves bivariadas unicas",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Mesmas cidades nas entradas",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Catalogo unico populacao_2024",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Catalogo unico renda_mediana_2022",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Catalogo unico urbanizacao_2022",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Catalogo unico alimentacao_2024",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Catalogo unico alimentacao_por_10mil_2024",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Catalogo unico varejo_alimentar_por_10mil_2024",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente renda_mediana_2022 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo renda_mediana_2022 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente urbanizacao_2022 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo urbanizacao_2022 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente alimentacao_por_10mil_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo alimentacao_por_10mil_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_por_10mil_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_por_10mil_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente populacao_2022 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo populacao_2022 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente empregos_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo empregos_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Registro existente varejo_alimentar_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodo varejo_alimentar_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Nenhum PIB no painel",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil populacao_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil renda_mediana_2022 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil urbanizacao_2022 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil alimentacao_por_10mil_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil varejo_alimentar_por_10mil_2024 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3127107",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3151602",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3505500",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3512100",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3513207",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3516200",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3517406",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3521309",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3531902",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3533601",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3534302",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Reversao perfil distancia_cd_centroides_km 3544905",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodos iguais na tripla populacao_2024 alimentacao_2024 empregos_2024",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodos iguais na tripla populacao_2024 varejo_alimentar_2024 empregos_2024",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Periodos iguais na tripla urbanizacao_2022 renda_mediana_2022 populacao_2022",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "Dimensoes e perfis",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "21 pares e 3 triplas",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet catalogo_perfis",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet painel_integrado",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet linhagem_indicadores",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet parametros_perfis",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet perfis_padronizados",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet associacoes_dimensoes",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet associacoes_parciais",
+      "resultado": "APROVADA"
+    },
+    {
+      "regra": "JSON Parquet sensibilidade_parcial",
+      "resultado": "APROVADA"
+    }
+  ],
+  "entrada": {
+    "base_run_id": "teste_valido",
+    "manifesto_base_sha256": "9aecfe2dddfaf9743adebf867fba652ad48992fda80bcadbe8a8dfa09c4a7322",
+    "silver_run_id": "20260930T212439Z_fb3ad8b9",
+    "conclusao_geografica_sha256": "6a78a25631f2c247f26850ebb465ab86e0d8b5af7778e76965dfa537e217b434",
+    "conclusao_bivariada_sha256": "c108701828c7d04a1b982533e5e85f6896f4d1b38d83e6e7af39223a32a18cc4"
+  },
+  "saida": "/workspace/scratch/2366eb33135b/tmp/validacao_10_integrada/datalake/03_gold/20261003T005330Z_16cd6b92/eda_multivariada",
+  "exportacoes": [
+    {
+      "tabela": "catalogo_perfis",
+      "linhas": 7,
+      "sha256_json": "6474100e10c9aa884d0208ce5b2695e7306623fc672d4f01ffd18a9c1460c487",
+      "sha256_parquet": "73abb7cb438130c54838fa3165b937f0f9bf7a3bfc291d44512d09475ac7a567"
+    },
+    {
+      "tabela": "painel_integrado",
+      "linhas": 12,
+      "sha256_json": "ddcebeaae34a10c5cc611c3b0781a5f3fb15c0beae8e08e8b93e3a729290eb72",
+      "sha256_parquet": "d3b7e816313532e050440626f11dffb9cf1b05e11a69e0e330dda4bdda22dca3"
+    },
+    {
+      "tabela": "linhagem_indicadores",
+      "linhas": 108,
+      "sha256_json": "32a11d2506baf9a9b7e85826e956182e8a9191036815a51bc4e1d3ef2b2ec0bc",
+      "sha256_parquet": "50f1e142f20e06c7bc98d2d8afcfb4cb1c5321d9edeef7b614a14fbf07a2e86a"
+    },
+    {
+      "tabela": "parametros_perfis",
+      "linhas": 7,
+      "sha256_json": "60e9069f1710443439f958c8a7c7ab569985bb13377dff639ceab2f93611e8e0",
+      "sha256_parquet": "1a68f39be3e525206a8ca46a3ba0e8e6e49b0282f344304026b9a3b84e7baee7"
+    },
+    {
+      "tabela": "perfis_padronizados",
+      "linhas": 84,
+      "sha256_json": "fce0c0bb1914b936fb5b0579e98e85f7ed069086f88a6f3640dd60226f23c867",
+      "sha256_parquet": "f76ecc740bb998b0b70054fa5e4b0196e355ab0e3719b9d6a771b82dc29c0c09"
+    },
+    {
+      "tabela": "associacoes_dimensoes",
+      "linhas": 21,
+      "sha256_json": "4676578ae1dd8041e8b6ef1d6f71124a2338c2c53a2637719e7982d1418da472",
+      "sha256_parquet": "70b099f1c0475ccf64a15abf30244646089a3d610bb93c88200a618b33fe514f"
+    },
+    {
+      "tabela": "associacoes_parciais",
+      "linhas": 3,
+      "sha256_json": "ed2ab0c354635accde5ea35d2cc99d84030d4cd942b38c7892bc69ccaef4ddd2",
+      "sha256_parquet": "d20d8ce986e5df74875dd8cb8f6fbcf0195f673704e0409ab4cfe5a5e4d04930"
+    },
+    {
+      "tabela": "sensibilidade_parcial",
+      "linhas": 36,
+      "sha256_json": "3882a1ff3e15f4149c4785e9afd2c89a31d9857dfc42820cd823b9d4e21bc688",
+      "sha256_parquet": "4a4f6e8c27f901bec9ff96074736e54bb414d3867ce3ba81d4d401f38191cd87"
+    }
+  ],
+  "resumo": {
+    "cidades": 12,
+    "dimensoes": 7,
+    "perfis": 84,
+    "associacoes_pares": 21,
+    "triplas_controle": 3,
+    "sensibilidade_exclusoes": 36,
+    "valores_ausentes_perfis": 0
+  },
+  "metodos": {
+    "perfil": "(transformacao(valor)-mediana)/IQR; quantis lineares tipo 7; null se IQR zero",
+    "parcial": "Pearson dos residuos de dois ajustes lineares separados no mesmo controle com intercepto",
+    "sensibilidade": "Uma cidade retirada por vez; sem criterio automatico de estabilidade"
+  },
+  "limites": [
+    "12 cidades selecionadas; resultados exploratorios sem generalizacao, p-valores ou causalidade.",
+    "Renda e urbanizacao: 2022. Populacao, unidades comerciais e ocupacao: 2024. Distancias entre centroides sem ano estatistico definido.",
+    "Log1p aplicado apenas a populacao e unidades de alimentacao para visualizar perfis; correlacoes usam valores originais.",
+    "Posicao robusta = (valor transformado - mediana) / IQR; sinais nao significam bom ou ruim.",
+    "Nenhum escore, pesos comerciais, ranking, PCA ou cluster foi criado.",
+    "Taxas por 10 mil compartilham denominador populacional; correlacoes podem refletir acoplamento matematico.",
+    "Correlacao parcial ajusta um controle linear; nao remove confundimento nao observado nem garante comparabilidade entre cidades.",
+    "Pessoal ocupado total nao e taxa de emprego dos residentes; pode incluir empregados do proprio setor de alimentacao.",
+    "Distancia geografica nao representa frete, tempo ou atendimento operacional.",
+    "PIB e composicao setorial pendentes excluidos do bloco para todas as cidades; renda domiciliar permanece com conceito proprio.",
+    "Unidades CNAE nao comprovam demanda, concorrencia ou clientes potenciais interessados.",
+    "Comparacao com analise original somente no encerramento."
+  ],
+  "fim_utc": "2026-10-03T00:53:39.521389+00:00"
+}
