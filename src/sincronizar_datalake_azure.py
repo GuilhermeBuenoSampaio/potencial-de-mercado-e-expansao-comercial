@@ -11,7 +11,7 @@ from uuid import uuid4
 
 PROJETO='potencial-de-mercado-e-expansao-comercial'
 CONTA='stcustomeranalyticsgb01'
-PREFIXOS=['datalake/01_bronze','datalake/02_silver','datalake/03_gold','quality']
+PREFIXOS=['datalake/01_bronze','datalake/01_bronze_raw','datalake/02_silver','datalake/03_gold','quality']
 EXTENSOES={'.xlsx','.xls','.xlsm','.parquet','.json','.html','.log','.txt','.svg'}
 
 def sha_arquivo(p):
