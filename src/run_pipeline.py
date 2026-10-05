@@ -38,6 +38,10 @@ from etapa_28_pedagios_trajetos import executar as coletar_pedagios
 
 from etapa_29_priorizacao_comercial import executar as priorizar_comercial
 
+from etapa_30_carga_circuitos_sql import executar as carregar_circuitos_sql
+
+from etapa_31_views_power_bi import executar as preparar_views_bi
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--raiz', type=Path, default=Path(__file__).resolve().parent.parent)
@@ -72,7 +76,21 @@ def main():
     parser.add_argument('--parametros-equilibrio', type=Path)
     parser.add_argument('--pedagios-trajetos', action='store_true', help='Modo isolado: coleta geometrias e estima pedagios OSM')
     parser.add_argument("--priorizacao-comercial", action="store_true", help="Modo isolado: cruza SQL com os cinco circuitos da etapa 28")
+    parser.add_argument("--carregar-circuitos-sql", action="store_true", help="Modo isolado: carrega referencias comerciais no SQL")
+    parser.add_argument("--views-power-bi", action="store_true", help="Modo isolado: instala e valida views de consumo BI")
     args = parser.parse_args()
+    if args.views_power_bi:
+        modos = [k for k,v in vars(args).items() if isinstance(v,bool) and v and k not in ("views_power_bi","confiar_certificado")]
+        if modos or not args.sql_servidor: parser.error("--views-power-bi exige --sql-servidor e execucao isolada")
+        run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "_" + uuid4().hex[:8]
+        print(json.dumps(preparar_views_bi(args.raiz.resolve(), run_id, args.sql_servidor, args.sql_driver, args.confiar_certificado), ensure_ascii=False, indent=2))
+        return
+    if args.carregar_circuitos_sql:
+        modos = [k for k,v in vars(args).items() if isinstance(v,bool) and v and k not in ("carregar_circuitos_sql","confiar_certificado")]
+        if modos or not args.sql_servidor: parser.error("--carregar-circuitos-sql exige --sql-servidor e execucao isolada")
+        run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "_" + uuid4().hex[:8]
+        print(json.dumps(carregar_circuitos_sql(args.raiz.resolve(), run_id, args.sql_servidor, args.sql_driver, args.confiar_certificado), ensure_ascii=False, indent=2))
+        return
     if args.priorizacao_comercial:
         modos = [k for k,v in vars(args).items() if isinstance(v,bool) and v and k not in ("priorizacao_comercial","confiar_certificado")]
         if modos or not args.sql_servidor: parser.error("--priorizacao-comercial exige --sql-servidor e execucao isolada")
