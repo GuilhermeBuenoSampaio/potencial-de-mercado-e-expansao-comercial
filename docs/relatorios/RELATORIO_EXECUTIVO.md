@@ -1,28 +1,28 @@
 # Relatório executivo
 
-Potencial de mercado e expansão comercial • Referências para prospecção • 04/10/2026
+Potencial de mercado e expansão comercial • Referências para prospecção • 05/10/2026
 
 ## Decisão recomendada
 
-Começar a prospecção pelos polos Franca e Barretos, que concentram 68,55% dos estabelecimentos de varejo especializado analisados, e desenvolver em paralelo o circuito de Orlândia, Morro Agudo, Sales Oliveira e Nuporanga, cuja viagem exige a menor receita de equilíbrio simulada. Manter todas as cidades no plano e consolidar pedidos antes de mobilizar os circuitos mais distantes.
+Começar a prospecção pelos polos Franca e Barretos, que concentram 68,55% do varejo especializado e 65,70% do ampliado, e desenvolver em paralelo o circuito de Orlândia, Morro Agudo, Sales Oliveira e Nuporanga, cuja viagem exige a menor receita de equilíbrio simulada. Manter todas as cidades no plano e consolidar pedidos antes de mobilizar os circuitos mais distantes.
 
 ## O que a base permite afirmar
 
-São 12 municípios, 1.437 estabelecimentos de varejo especializado e 721.754 habitantes em 2024. Franca tem 690 estabelecimentos e Barretos, 295. Esses números indicam maior universo para prospecção, sem comprovar clientes disponíveis, volume de compra ou ausência de concorrentes. A qualidade do produto pode orientar a abordagem comercial e deve ser demonstrada ao comprador.
+São 12 municípios e 721.754 habitantes em 2024. Franca tem 690 unidades especializadas e 1.189 no ampliado; Barretos tem 295 e 512, respectivamente. Esses números indicam maior universo para prospecção, sem comprovar clientes disponíveis, volume de compra ou ausência de concorrentes. A qualidade do produto pode orientar a abordagem comercial e deve ser demonstrada ao comprador.
 
-O segmento medido é varejo especializado de alimentos, bebidas e fumo. Não inclui supermercados. Embora supermercados e redes sejam relevantes ao negócio, a base atual não permite medir seu tamanho, compras ou disponibilidade para novos fornecedores. A renda mediana de 2022 e a densidade de comércio ajudam a contextualizar os municípios, sem prever vendas.
+São comparados dois recortes de 2024: varejo especializado de alimentos, bebidas e fumo (1.437 unidades) e varejo alimentar ampliado (2.589), que inclui o especializado, supermercados, hipermercados, minimercados e mercearias. As 1.152 unidades adicionais (+80,17%) refletem a ampliação das categorias, não crescimento temporal. A base não informa tamanho das redes, compras ou disponibilidade para novos fornecedores. Renda de 2022 e densidade contextualizam os mercados, sem prever vendas.
 
 ## Cinco circuitos como referência para pedidos
 
-| Cidades do circuito | Varejo 2024 | Km ida e volta | Receita de equilíbrio |
-| --- | --- | --- | --- |
-| Cristais Paulista / Franca / Ipuã | 733 | 339,7 | R$ 1.335,60 |
-| Barretos / Guaíra | 364 | 328,6 | R$ 1.337,52 |
-| Sales Oliveira / Nuporanga / Morro Agudo / Orlândia | 201 | 233,8 | R$ 933,58 |
-| Frutal | 113 | 419,1 | R$ 1.726,42 |
-| Planura / Colômbia | 26 | 382,6 | R$ 1.599,53 |
+| Cidades do circuito | Especializado | Ampliado | Km ida e volta | Equilíbrio |
+| --- | --- | --- | --- | --- |
+| Cristais Paulista / Franca / Ipuã | 733 | 1.288 | 339,7 | R$ 1.335,60 |
+| Barretos / Guaíra | 364 | 678 | 328,6 | R$ 1.337,52 |
+| Sales Oliveira / Nuporanga / Morro Agudo / Orlândia | 201 | 372 | 233,8 | R$ 933,58 |
+| Frutal | 113 | 190 | 419,1 | R$ 1.726,42 |
+| Planura / Colômbia | 26 | 61 | 382,6 | R$ 1.599,53 |
 
-Todos os circuitos partem e retornam a Ribeirão Preto. As sequências são sugestões para orientar o vendedor; a programação de entregas e as rotas fixas permanecem sob responsabilidade do gerente do centro de distribuição. Os agrupamentos de Franca e Barretos somam 76,34% do varejo da seleção.
+Todos os circuitos partem e retornam a Ribeirão Preto. As sequências são sugestões para orientar o vendedor; a programação de entregas e as rotas fixas permanecem sob responsabilidade do gerente do centro de distribuição. Os agrupamentos de Franca e Barretos somam 76,34% do especializado e 75,94% do ampliado. A ordem dos cinco circuitos permanece igual; custos e equilíbrio não mudam porque os trajetos e parâmetros foram mantidos.
 
 ## Como interpretar o mínimo de vendas
 
@@ -34,7 +34,7 @@ O mínimo é do conjunto da viagem, não de cada cidade. Um pedido maior pode aj
 
 1. Polos de escala: formar carteira e pedidos em Franca e Barretos, agregando Cristais Paulista, Ipuã e Guaíra quando houver oportunidade no circuito. O maior número de estabelecimentos amplia o universo de abordagem, mas não garante conversão.
 
-2. Circuito próximo: trabalhar Orlândia e Morro Agudo com Sales Oliveira e Nuporanga. Esse agrupamento reúne 201 estabelecimentos e o menor equilíbrio de referência, R$ 933,58. É uma alternativa para desenvolver presença regional e ajustar o processo comercial.
+2. Circuito próximo: trabalhar Orlândia e Morro Agudo com Sales Oliveira e Nuporanga. Esse agrupamento reúne 201 unidades especializadas e 372 no ampliado e o menor equilíbrio de referência, R$ 933,58. É uma alternativa para desenvolver presença regional e ajustar o processo comercial.
 
 3. Expansão condicionada: atender Frutal, Planura e Colômbia mediante consolidação de pedidos e avaliação do gestor. Não excluir os mercados menores; buscar paradas que ampliem a presença da marca e possam gerar novas indicações, sem assumir que esse efeito ocorrerá.
 
@@ -48,4 +48,4 @@ Os 27 cenários permitem testar consumo de 8 a 12 km/l, desgaste de R$ 0,10 a R$
 
 O vendedor pode organizar a prospecção por circuito, registrar clientes abordados e pedidos e acompanhar a contribuição acumulada da viagem. O gestor confirma rota, tarifas, capacidade, acondicionamento e tempos de entrega. Se houver grandes pedidos com descarga prolongada, avaliar entrega dedicada para preservar o atendimento às demais cidades. Atualizar a simulação conforme surjam dados reais de vendas e operação.
 
-Entrega final: dashboard com filtros de circuito e cenário, perfil dos 12 municípios e referências de custo e receita de equilíbrio. Base de resultados: run_29 20261003T235010Z_0008bbdd. A finalidade é apoiar decisões de prospecção e formação de pedidos, com as limitações registradas.
+Entrega final: dashboard com filtros de circuito e cenário, perfil dos 12 municípios e referências de custo e receita de equilíbrio. Base de resultados: run_29 20261003T235010Z_0008bbdd e run_32 20261005T143409Z_0c721611. A finalidade é apoiar decisões de prospecção e formação de pedidos, com as limitações registradas.

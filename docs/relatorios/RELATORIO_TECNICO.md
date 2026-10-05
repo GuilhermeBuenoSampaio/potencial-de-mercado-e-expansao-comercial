@@ -1,6 +1,6 @@
 # Relatório técnico
 
-Potencial de mercado e expansão comercial • Fechamento em 04/10/2026
+Potencial de mercado e expansão comercial • Atualização em 05/10/2026
 
 ## 1 Objetivo e escopo
 
@@ -20,7 +20,7 @@ A entrega reúne o dashboard Power BI, o modelo SQL e referências simuladas de 
 | População mais recente | 2026 na base | Informação separada; não substitui o denominador de 2024. |
 | Preços de produtos | Vigência não confirmada | Referências documentais; não determinam margem de contribuição. |
 
-O universo soma 1.437 estabelecimentos de varejo especializado e 721.754 habitantes em 2024. A taxa regional é 19,91 estabelecimentos por 10 mil habitantes. Estabelecimento não equivale a cliente confirmado, rede, capacidade de compra ou ponto elegível para todos os produtos. Supermercados são relevantes ao negócio, mas sua cobertura não está representada por esta contagem.
+O universo soma 1.437 estabelecimentos de varejo especializado e 721.754 habitantes em 2024. A taxa regional é 19,91 estabelecimentos por 10 mil habitantes. Estabelecimento não equivale a cliente confirmado, rede, capacidade de compra ou ponto elegível para todos os produtos. O recorte ampliado incorpora supermercados, hipermercados, minimercados e mercearias, somando 2.589 unidades e densidade regional de 35,87 por 10 mil habitantes.
 
 Exemplo: Sales Oliveira tem 26 estabelecimentos de alimentação e 32 de varejo alimentar especializado. São universos de atividades distintos; a soma não foi usada como número de clientes potenciais. Sua participação regional no varejo é 32 / 1.437 × 100 = 2,23%.
 
@@ -85,13 +85,13 @@ Ausência de um ponto ou tarifa na fonte não comprova isenção. Descontos TAG/
 
 ## 7 Resultados dos circuitos
 
-| Cidades do circuito | Varejo 2024 | Km ida e volta | Receita de equilíbrio |
-| --- | --- | --- | --- |
-| Cristais Paulista / Franca / Ipuã | 733 | 339,7 | R$ 1.335,60 |
-| Barretos / Guaíra | 364 | 328,6 | R$ 1.337,52 |
-| Sales Oliveira / Nuporanga / Morro Agudo / Orlândia | 201 | 233,8 | R$ 933,58 |
-| Frutal | 113 | 419,1 | R$ 1.726,42 |
-| Planura / Colômbia | 26 | 382,6 | R$ 1.599,53 |
+| Cidades do circuito | Especializado | Ampliado | Km ida e volta | Equilíbrio |
+| --- | --- | --- | --- | --- |
+| Cristais Paulista / Franca / Ipuã | 733 | 1.288 | 339,7 | R$ 1.335,60 |
+| Barretos / Guaíra | 364 | 678 | 328,6 | R$ 1.337,52 |
+| Sales Oliveira / Nuporanga / Morro Agudo / Orlândia | 201 | 372 | 233,8 | R$ 933,58 |
+| Frutal | 113 | 190 | 419,1 | R$ 1.726,42 |
+| Planura / Colômbia | 26 | 61 | 382,6 | R$ 1.599,53 |
 
 Todas as sequências começam e terminam em Ribeirão Preto. Os dois maiores agrupamentos reúnem 1.097 estabelecimentos, ou 76,34% do universo. O circuito Sales Oliveira / Nuporanga / Morro Agudo / Orlândia combina 201 estabelecimentos com a menor receita de equilíbrio de referência. Os trajetos de Frutal e Planura / Colômbia têm maior esforço relativo e devem depender de formação de pedidos e encaixe logístico.
 
@@ -122,9 +122,26 @@ Esses extremos resultam da variação conjunta de consumo, desgaste e margem. N�
 | Planura | 12 | 0,84% | 10,45 | R$ 1.050,00 |
 | Cristais Paulista | 12 | 0,84% | 12,57 | R$ 1.200,00 |
 
-Franca e Barretos lideram a escala observada, com 985 estabelecimentos e 68,55% do universo. Nuporanga e Sales Oliveira apresentam as maiores densidades e rendas medianas desta seleção, mas menor escala absoluta. A renda contextualiza a análise; não foi convertida em demanda, ticket ou pontuação arbitrária. Concorrência, compradores ativos e volume por cliente são desconhecidos.
+Franca e Barretos lideram a escala observada, com 985 estabelecimentos e 68,55% do universo. No especializado, Nuporanga e Sales Oliveira apresentam as maiores densidades. No ampliado, Nuporanga (55,63) e Ipuã (50,37) lideram a densidade por 10 mil habitantes. Nuporanga e Sales Oliveira têm as maiores rendas medianas, mas menor escala absoluta. Ipuã passa da posição 8 para 7, Sales Oliveira de 7 para 8; Planura ocupa 11 e Cristais Paulista 12 no ampliado. A renda contextualiza a análise; não foi convertida em demanda, ticket ou pontuação arbitrária. Concorrência, compradores ativos e volume por cliente são desconhecidos.
 
 A orientação combina prospecção dos polos Franca e Barretos com desenvolvimento do circuito próximo de Orlândia, Morro Agudo, Sales Oliveira e Nuporanga. Cristais Paulista e Ipuã entram no agrupamento de Franca; Guaíra no de Barretos. Frutal, Planura e Colômbia permanecem no plano, condicionadas à consolidação de pedidos. Não existe um valor mínimo igual por cidade: uma venda maior pode sustentar paradas menores no mesmo circuito, desde que a contribuição conjunta cubra a viagem e a logística permita.
+
+## Comparação municipal do varejo em 2024
+
+| Município | Especializado | Ampliado | Part esp % | Part ampl % |
+| --- | --- | --- | --- | --- |
+| Franca | 690 | 1.189 | 48,02 | 45,93 |
+| Barretos | 295 | 512 | 20,53 | 19,78 |
+| Frutal | 113 | 190 | 7,86 | 7,34 |
+| Orlândia | 93 | 187 | 6,47 | 7,22 |
+| Guaíra | 69 | 166 | 4,80 | 6,41 |
+| Morro Agudo | 55 | 94 | 3,83 | 3,63 |
+| Sales Oliveira | 32 | 49 | 2,23 | 1,89 |
+| Ipuã | 31 | 74 | 2,16 | 2,86 |
+| Nuporanga | 21 | 42 | 1,46 | 1,62 |
+| Colômbia | 14 | 31 | 0,97 | 1,20 |
+| Planura | 12 | 30 | 0,84 | 1,16 |
+| Cristais Paulista | 12 | 25 | 0,84 | 0,97 |
 
 ## 9 Verificação e conclusão
 
@@ -141,3 +158,15 @@ Fontes internas verificadas: circuitos_comerciais.json e municipios_prioridades.
 Fontes externas arquivadas pelo pipeline: ANP para gasolina; OSRM para trajetórias; OpenStreetMap/Overpass para candidatos a pedágio; portais de concessionárias e ARTESP para tentativas de conferência. Consulta de rotas: https://project-osrm.org/docs/v26.4.0/http/ . Overpass: https://overpass-api.de/api/interpreter . Os dados OSM têm atribuição a OpenStreetMap contributors e licença ODbL. Este relatório não realizou nova pesquisa de tarifas.
 
 Reprodução no ambiente original: python src/run_pipeline.py --views-power-bi --sql-servidor 'DESKTOP-MAMEBQ8\SQLEXPRESS' --sql-driver 'ODBC Driver 17 for SQL Server' --confiar-certificado. Requer as cargas aprovadas das etapas anteriores e o ambiente configurado. No Power BI, atualizar as views, selecionar um cenário e conferir os totais 12 / 1.437 / 721.754 / 19,91. A autorização de confiança de certificado corresponde ao ambiente local informado.
+
+## 11 Ampliação do recorte e reprodução da etapa 32
+
+A etapa 32 coleta o agregado IBGE 9528, variável 706 (Número de unidades locais), ano 2024 e classificação 12762. O ampliado soma as categorias 117443 (CNAE 47.2), 117440 (47.11-3) e 117441 (47.12-1). Não soma o total de todas as atividades, a categoria de serviços de alimentação 56, a fabricação 10.9 nem o grupo pai 47.1 às suas classes. São 284 unidades em 47.11-3 e 868 em 47.12-1, acrescidas às 1.437 de 47.2.
+
+A execução 20261005T143409Z_0c721611 foi confirmada no SQL com status COMPARACAO_VAREJO_VERIFICADA, vinculada ao run_29 20261003T235010Z_0008bbdd. Fonte SHA-256: 967e12da2ea62a524efae8793b83915c4018c4c474470ca368d4b0113648b353. A etapa valida cobertura de 12 municípios e três categorias, duplicidades, valores suprimidos, reconciliação do especializado e agregação por circuito. Não imputa supressões como zero.
+
+Novas views: gold.vw_bi_municipio_varejo_comparado (12 linhas), gold.vw_bi_circuito_varejo_comparado (5) e gold.vw_bi_execucao_comparacao_varejo. As consultas do Power BI mantêm os nomes vw_bi_municipio_comercial e vw_bi_circuito, mas leem as views comparativas, preservando as chaves e os três relacionamentos. A tabela municipal compara volume e participação de cada recorte; a tabela de circuitos apresenta também unidades adicionais e acréscimo percentual.
+
+Medidas DAX: ampliado = SUM(varejo_alimentar_ampliado_2024); especializado = SUM(varejo_especializado_2024); adicionais = ampliado - especializado; acréscimo = DIVIDE(adicionais, especializado). A porcentagem usa a razão dos totais, não soma porcentagens. Cada participação tem seu próprio denominador regional (1.437 ou 2.589); percentuais SQL em escala 0 a 100 precisam ser divididos por 100 antes de formatação percentual no Power BI.
+
+Executar separadamente: python src/etapa_32_comparacao_varejo.py --servidor 'DESKTOP-MAMEBQ8\SQLEXPRESS' --driver 'ODBC Driver 17 for SQL Server' --confiar-certificado. A etapa não é automaticamente incorporada ao run_pipeline.py. Fonte: https://servicodados.ibge.gov.br/api/v3/agregados/9528/metadados . Conferir totais 12 municípios, 5 circuitos, 1.437 especializados, 2.589 ampliados, 1.152 adicionais, 80,17%, população 721.754 e densidades 19,91 / 35,87. Nenhuma nova simulação logística foi criada; permanecem 27 cenários e 135 simulações.
